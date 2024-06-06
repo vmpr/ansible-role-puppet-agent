@@ -11,8 +11,6 @@
   loop:
     - 'http://yum.puppetlabs.com/RPM-GPG-KEY-puppet'
     - 'http://yum.puppetlabs.com/RPM-GPG-KEY-puppet-20250406'
-    - 'http://yum.puppetlabs.com/RPM-GPG-KEY-puppetlabs'
-    - 'http://yum.puppetlabs.com/RPM-GPG-KEY-reductive'
 
 - name: Amazonlinux | Add Puppetlabs repository
   yum_repository:
